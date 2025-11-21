@@ -1,0 +1,73 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    line-height: 1.6; 
+    background: #f4f4f4; 
+}
+
+nav { 
+    background: #333; 
+    padding: 1rem; 
+    text-align: center; 
+}
+
+nav a { 
+    color: white; 
+    margin: 0 1rem; 
+    text-decoration: none; 
+    font-weight: 600;
+}
+
+header { 
+    text-align: center; 
+    padding: 4rem 2rem; 
+    background: #333; 
+    color: white; 
+}
+
+.highlight {
+    color: #00eaff;
+    font-weight: bold;
+}
+
+section { 
+    padding: 3rem; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.project { 
+    background: white; 
+    padding: 2rem; 
+    margin: 1rem 0; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
